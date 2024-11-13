@@ -15,7 +15,7 @@ class AppTextStyles {
     String? fontFamily,
   }) {
     return TextStyle(
-      fontFamily: fontFamily ?? satoshi,
+      fontFamily: satoshi,
       fontSize: size,
       color: color ?? AppColors.textPrimary1,
       fontWeight: weight,

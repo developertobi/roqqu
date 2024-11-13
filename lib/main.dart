@@ -14,7 +14,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(scaffoldBackgroundColor: AppColors.scaffoldBackground),
+      theme: ThemeData(
+          scaffoldBackgroundColor: AppColors.scaffoldBackground,
+          bottomSheetTheme: BottomSheetThemeData(backgroundColor: AppColors.grey)),
       title: AppStrings.appName,
       home: const TradingView(),
     );
