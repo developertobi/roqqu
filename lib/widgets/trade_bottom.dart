@@ -17,8 +17,6 @@ class CryptoTradeBottomSheet extends StatefulWidget {
 
 class CryptoTradeBottomSheetState extends State<CryptoTradeBottomSheet> {
   String _selectedTab = 'Buy';
-  String _selectedOrderType = 'Limit';
-  String _selectedTypeOption = 'Good till cancelled';
   bool _postOnly = false;
   String dropdownValue = 'NGN';
 
